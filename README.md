@@ -1,4 +1,4 @@
-# Covid Tracker - UTS Front-End Engineer
+# Web Pemantauan Kasus Covid-19 - UTS Front-End Engineer
 
 **Nama:** Lutfi Fuat Azhar  
 **NIM:** 0110223119  
@@ -29,8 +29,4 @@ Dibangun menggunakan **React** dan **Vite** dengan struktur proyek yang rapi dan
 
 ---
 
-## Cara Menjalankan Proyek
 
-1. Clone repository:
-   ```bash
-   git clone https://github.com/username/nama-repo.git
