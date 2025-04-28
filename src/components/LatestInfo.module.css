@@ -1,0 +1,37 @@
+/* LatestInfo.module.css */
+.container {
+  background-color: #f7f9fc;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #4da6ff;
+}
+
+.infos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 48%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #777;
+}

@@ -1,0 +1,90 @@
+/* Navbar Styling */
+.navbar {
+  width: 100%; /* Full-width navbar */
+  background-color: #256dca;
+  padding: 10px 0;
+  box-sizing: border-box;
+  position: fixed; /* Fixed position at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar__container {
+  display: flex; /* Use Flexbox */
+  justify-content: space-between; /* Space out logo, menu, and social media */
+  align-items: center; /* Center elements vertically */
+  width: 100%; /* Ensure container takes full width */
+  padding: 0 20px; /* Padding on left and right for spacing */
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar__logo-img {
+  height: 70px; /* Adjust logo size */
+}
+
+.navbar__logo span {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 20px; /* Space between menu items */
+}
+
+.navbar__menu a {
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar__menu a:hover {
+  color: #09090a; /* Change color on hover */
+}
+
+.navbar__social {
+  display: flex;
+  gap: 15px; /* Space between social media icons */
+}
+
+.navbar__social a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar__social a:hover {
+  color: #0f130f; /* Change color on hover */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar__container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+  }
+
+  .navbar__menu {
+    flex-direction: column; /* Stack menu items vertically */
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .navbar__social {
+    flex-direction: column; /* Stack social media icons vertically */
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .navbar__menu a, .navbar__social a {
+    margin: 10px 0; /* Add space between items */
+  }
+}
